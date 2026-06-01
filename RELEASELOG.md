@@ -1,5 +1,18 @@
 # ReleaseLog
 
+## 8.12.0
+
+Release Date: 2026-06-01.
+
+### Runtime
+
+- fix: also setup packingSize to TypeDefinition.bitfield at bit position il2cpp::vm::kSpecifiedPackingSize so that Type.StructLayoutAttribute.Pack return the correct packingSize
+- fix: get wrong packing and classSize for the struct when interpreter type contains a AOT generic struct
+
+### Editor
+
+- fix: correct conditional compilation macro of MonoHook for Windows standalone targeting
+
 ## 8.11.0
 
 Release Date: 2026-02-28.
